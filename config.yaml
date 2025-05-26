@@ -1,0 +1,13 @@
+name: "NeuralPredict API"
+version: "1.0.0"
+slug: "neuralpredict_api"
+description: "NeuralPredict with API for n8n"
+arch: ["armhf", "armv7", "aarch64", "amd64", "i386"]
+startup: "application"
+boot: "auto"
+ports:
+  "8000/tcp": 8000
+ports_description:
+  "8000/tcp": "API port for NeuralPredict"
+options: {}
+schema: {}
